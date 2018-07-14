@@ -370,6 +370,7 @@ What is the Diamond Problem as it relates to:
 
 A. C#
 https://blogs.msdn.microsoft.com/csharpfaq/2004/03/07/why-doesnt-c-support-multiple-inheritance/
+https://stackoverflow.com/questions/12139772/how-interfaces-solve-the-diamond-prob
 
 B. Java
 

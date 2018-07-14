@@ -1,0 +1,518 @@
+CareerDevs Interview Questions
+
+Start time:
+End Time:
+
+Hi Everyone, 
+
+Here are your interview questions. There are four sections:
+
+Algorithms,
+Object Oriented Programming
+Design Patterns
+.Net (skip if not applicable to your learning track)
+Java (skip if not applicable to your learning track)
+
+Please set aside two hours to complete this exercise.  Please set a timer and note your start time and your end time.  This isn’t a race, but it will help you as well as careerdevs to determine how long it takes for you to complete this assignment. 
+
+By mastering the underlying concepts AS WELL AS the answers to the following interview, you will be more than prepared to crush your job interview.
+
+Please mark all difficult questions with a “D!”.  This will help us know what we need to focus more on in the future.  Thanks and congrats on Killing your upcoming software developer job interview!
+
+Talk soon,
+
+Arnell
+
+
+Algorithms:
+
+What is Big O notation?  Be descriptive (4 or more sentences).  What are its various permutations?
+
+Your answer: 
+Big O notation is a way of describing an algorithms’ efficiency in terms of space and time. Specifically in terms of worst case scenario. Depending on the data the algorithm is fed, what is the most time and space it could use. As the input grows, so does the potential time and space of the algorithm.
+
+
+What are Divide and Conquer algorithms? Describe how they work. Can you give any common examples of the types of problems where this approach might be used?
+
+Your Answer: 
+Basically this is a method of recursively breaking the input data of a problem into smaller, more easily organized chunks or sub-problems. Once solutions are achieved for these sub-problems, These solutions are solved as a solution to the original problem. 
+
+
+
+What is a Hash Table, and what is the average case and worst case time for each of its operations? How can we use this structure to find all anagrams in a dictionary?
+
+Your Answer:
+A Hash Table is a data structure that maps keys to values. Using a hash function to compute an index into an array of buckets or slots, from which the desired value can be found. On average it’s time complexity is O(n) as is it’s worst case scenario. We can use this structure to find all anagrams in a dictionary by populating the hash table in a way that all anagrams have the same hash value. https://www.geeksforgeeks.org/given-a-sequence-of-words-print-all-anagrams-together/
+
+
+Why would you use a Binary Search for a linked lists?
+
+Your Answer: D
+It is possible but not that efficient. You could use a Binary tree.
+
+
+Given a large string of characters, what is the most efficient way to identify the first unique character in the string?
+
+Your Answer:
+1) Scan the string from left to right and construct the count array.
+	2) Again, scan the string from left to right and check for count of each
+	 character, if you find an element with a count of 1, return it.
+
+
+
+What is a logarithm?  Be descriptive (4 or more sentences).
+
+Your Answer:
+A logarithm is the power to which a number must be raised in order to get some other number. For example, the base ten logarithm of 100 is 2, because ten raised to the power of two is 100.
+
+
+Explain O(log N)? Be descriptive (4 or more sentences).
+
+Your Answer:
+The most common attributes of logarithmic running-time function are that:
+the choice of the next element on which to perform some action is one of several possibilities, and
+only one will need to be chosen.
+or
+the elements on which the action is performed are digits of n
+ 
+For example, looking up people in a phone book is O(log n). You don't need to check every person in the phone book to find the right one; instead, you can simply divide-and-conquer by looking based on where their name is alphabetically, and in every section you only need to explore a subset of each section before you eventually find someone's phone number.
+Of course, a bigger phone book will still take you a longer time, but it won't grow as quickly as the proportional increase in the additional size.
+https://stackoverflow.com/questions/2307283/what-does-olog-n-mean-exactly
+
+
+
+How does algorithmic mastery make one a better computer scientist and software engineer?  Be descriptive (4 or more sentences).
+Algorithmic mastery is to fully understand how a computer “thinks”. To logically define the precise steps it should take to arrive at a solution to a problem. With consideration for performance and efficiency in terms of time and space.
+
+
+
+
+What is the relationship between Dijkstra's algorithm and graph data structures.
+
+Your Answer:
+Dijkstra's algorithm constructs a shortest path tree starting from some source node. A shortest path tree is a tree that connects all nodes in the graph back to the source node and has the property that the length of any path from the source node to any other node in the graph is minimized. It is a graph data structure.
+
+
+
+Read some of the following.  What did you find interesting?
+
+http://delivery.acm.org/10.1145/1290000/1283927/a1972-dijkstra.pdf?ip=68.0.213.32&id=1283927&acc=OPEN&key=4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E6D218144511F3437&__acm__=1530763760_2fe16c6dd019b5fc00fe92f4fc664579
+
+Your answer:
+An error occurred while processing your request.
+Reference #50.16dbab62.1531065862.3aff5bf5
+
+
+
+
+Watch some of the following. 
+
+Who was the person speaking at the start of the video?  Elaborate.
+
+Your answer:
+Eric Schmidt - VP general Systems group of Sun Microsystems
+
+
+What did you find interesting about the lecture?
+
+https://www.youtube.com/watch?v=GX3URhx6i2E
+
+Your answer:
+This is a one hour lecture in the middle of a 2 hour assignment.
+“Please set aside two hours to complete this exercise.” to include 1hr to watch a lecture or that hour not included?
+
+
+
+List two resources for learning about/exploring algorithms (url) ?
+A. https://www.udemy.com/coding-interview-bootcamp-algorithms-and-data-structure/
+B. https://doc.lagout.org/science/0_Computer%20Science/2_Algorithms/Introduction%20to%20Algorithms%20%283rd%20ed.%29%20%5BCormen%2C%20Leiserson%2C%20Rivest%20%26%20Stein%202009-07-31%5D.pdf
+
+
+
+List a url to an algorithm repository along with a snippet of code. 
+A (url1).
+B. Code snippet:
+
+
+
+C. Describe the algorithmic context of the code snippet pasted above
+
+
+List a second url to an algorithm repository along with a snippet of code.  
+A (url1).
+B. Code snippet:
+
+
+
+C. Describe the algorithmic context of the code snippet pasted above
+
+
+
+
+
+
+
+
+Design Patterns
+
+What is a design pattern? Be descriptive (6 [six] or more sentences).
+
+Your answer:
+A design pattern is a general, reusable solution to a commonly occurring problem within a given context in software design. It is not a finished design that can be transformed directly into source or machine code. It is a description or template for how to solve a problem that can be used in many different situations. Design patterns are formalized best practices that the programmer can use to solve common problems when designing an application or system.
+
+
+
+What is the purpose of  design pattern? Be descriptive (4 or more sentences).
+
+Your answer:
+Design patterns can speed up the development process by providing tested, proven development paradigms. Effective software design requires considering issues that may not become visible until later in the implementation. Freshly written code can often have hidden subtle issues that take time to be detected, issues that sometimes can cause major problems down the road. Reusing design patterns helps to prevent such subtle issues, and it also improves code readability for coders and architects who are familiar with the patterns.
+
+
+
+How does design pattern mastery make one a better computer scientist and software engineer?  Be descriptive (4 or more sentences).
+
+Your answer: 
+By understanding fully the many different approaches to solving a particular problem and also understanding the depth and scale to which that can potentially grow, one can best choose the particular design pattern that will be most effective and efficient design pattern now and down the road.
+
+
+
+How do design patterns relate to OOP?
+
+Your answer:
+Object-oriented design patterns typically show relationships and interactions between classes or objects, without specifying the final application classes or objects that are involved. Patterns that imply mutable state may be unsuited for functional programming languages, some patterns can be rendered unnecessary in languages that have built-in support for solving the problem they are trying to solve, and object-oriented patterns are not necessarily suitable for non-object-oriented languages.
+
+
+
+Describe the MVC design pattern and include a use case.  Be descriptive (4 or more sentences).
+
+Your answer:
+MVC is a software architecture that separates domain/application/business logic from the rest of the user interface. It does this by separating the application into three parts: the model, the view, and the controller.
+The model manages fundamental behaviors and data of the application. It can respond to requests for information, respond to instructions to change the state of its information, and even to notify observers in event-driven systems when information changes. This could be a database, or any number of data structures or storage systems. In short, it is the data and data-management of the application.
+The view effectively provides the user interface element of the application. It'll render data from the model into a form that is suitable for the user interface.
+The controller receives user input and makes calls to model objects and the view to perform appropriate actions.
+All in all, these three components work together to create the three basic components of MVC.
+
+
+
+
+Name and describe another design pattern and include a use case.  Be descriptive (4 or more sentences).
+
+Your answer:
+The adapter pattern is a structural design pattern that allows you to repurpose a class with a different interface, allowing it to be used by a system which uses different calling methods.
+This also lets you alter some of the inputs being received from the client class, making it into something compatible with the adaptes’ functions.
+Another term to reference an adapter class is a wrapper, which basically lets you "wrap" actions into a class and reuse these actions in the correct situations. A classic example might be when you're creating a domain class for table classes. Instead of calling the different table classes and calling up their functions one by one, you could encapsulate all of these methods into one method using an adapter class. This would not only allow you to reuse whatever action you want, it also keeps you from having to rewrite the code if you need to use the same action in a different place.
+
+
+
+
+Name and describe another design pattern and include a use case.  Be descriptive (4 or more sentences).
+
+Your answer:
+The factory method pattern is a creational design pattern which does exactly as it sounds: it's a class that acts as a factory of object instances.
+The main goal of this pattern is to encapsulate the creational procedure that may span different classes into one single function. By providing the correct context to the factory method, it will be able to return the correct object.
+The best time to use the factory method pattern is when you have multiple different variations of a single entity. Let's say you have a button class; this class has different variations, such as ImageButton, InputButton and FlashButton. Depending on the place, you may need to create different buttons—this is where you can use a factory to create the buttons for you!
+
+
+
+
+
+Object Oriented Programming
+
+What is a Object Oriented Programming? Be descriptive (6 [six] or more sentences).
+
+Your answer:
+Object-oriented programming is a programming paradigm based on the concept of "objects", which may contain data, in the form of fields, often known as attributes; and code, in the form of procedures, often known as methods. A feature of objects is that an object's procedures can access and often modify the data fields of the object with which they are associated (objects have a notion of "this" or "self"). In OOP, computer programs are designed by making them out of objects that interact with one another. There is significant diversity of OOP languages, but the most popular ones are class-based, meaning that objects are instances of classes, which typically also determine their type.
+
+
+What are the goals of OOP?
+	Robustness - Complex programs should operate correctly. They should deal with improper inputs and Should deal with improper inputs and conditions.
+Adaptability - Software grows over a long lifetime. May run on different generations and may run on different generations and makes of hardware.
+ Reusability - Building from reusable pieces avoids repetition and makes use of what has been built.
+
+
+Define Encapsulation
+
+Your answer:
+Encapsulation is an object-oriented programming concept that binds together the data and functions that manipulate the them, and that keeps both safe from outside interference and misuse. Data encapsulation led to the important OOP concept of data hiding.
+
+Paste a commented code snippet example below: 
+READ ONLY PROPERTY
+using system;  
+public class ReadDepartment {  
+    private string departname;  
+    public ReadDepartment(string avalue) {  
+        departname = avalue;  
+    }  
+    public string Departname {  
+        get {  
+            return departname;  
+        }  
+    }  
+}  
+public class ReadDepartmain {  
+    public static int Main(string[] args) {  
+        ReadDepartment d = new ReadDepartment("COMPUTERSCIENCE");  
+        Console.WriteLine("The Department is: {0}", d.Departname);  
+        return 0;  
+    }  
+}  
+
+
+
+
+
+Define Abstraction 
+
+Your answer:
+Abstraction means displaying only essential information and hiding the details. Data abstraction refers to providing only essential information about the data to the outside world, hiding the background details or implementation.
+
+Paste a commented code snippet example below: 
+class program
+	{
+        abstract class animal
+    	{
+            public abstract void eat();
+            public void sound()
+        	{
+                Console.WriteLine("dog can sound");
+        	}
+    	}
+        class dog : animal
+    	{
+            public override void eat() { Console.WriteLine("dog can eat"); }
+    	}
+        static void Main(string[] args)
+    	{
+            dog mydog = new dog();
+            animal thePet = mydog;
+        	thePet.eat();
+        	mydog.sound();
+    	}
+	}
+
+
+
+Define Inheritance
+
+Your answer:
+Inheritance allows the creation of hierarchical classifications. Using inheritance you can create a general class that defines traits common to a set of related items. This class can then be inherited by other, more specific classes, each adding those things that are unique to it.
+
+In the language of C#, a class that is inherited is called a base class. The class that does the inheriting is called the derived class. Therefore a derived class is a specialized version of a base class. It inherits all of the variables, methods, properties, and indexers defined by the base class and adds its own unique elements.
+
+Paste a commented code snippet example below: 
+//Base class or Parent class.  
+class Shape  
+{  
+    public double Width;  
+    public double Height;  
+    public void ShowDim()  
+    {  
+        Console.WriteLine("Width and height are " +  
+        Width + " and " + Height);  
+    }  
+}  
+// Triangle is derived from Shape.  
+//Drived class or Child class.  
+class Triangle : Shape  
+{  
+    public string Style; // style of triangle  
+    // Return area of triangle.  
+    public double Area()  
+    {  
+        return Width * Height / 2;  
+    }  
+    // Display a triangle's style.  
+    public void ShowStyle()  
+    {  
+        Console.WriteLine("Triangle is " + Style);  
+    }  
+}  
+//Driver class which runs the program.  
+class Driver  
+{  
+    static void Main()  
+    {  
+        Triangle t1 new Triangle();  
+        Triangle t2 new Triangle();  
+        t1.Width =4.0;  
+        t1.Height =4.0;  
+        t1.Style ="isosceles";  
+        t2.Width =8.0;  
+        t2.Height =12.0;  
+        t2.Style ="right";  
+        Console.WriteLine("Info for t1: ");  
+        t1.ShowStyle();  
+        t1.ShowDim();  
+        Console.WriteLine("Area is " + t1.Area());  
+        Console.WriteLine();  
+        Console.WriteLine("Info for t2: ");  
+        t2.ShowStyle();  
+        t2.ShowDim();  
+        Console.WriteLine("Area is " + t2.Area());  
+    }  
+}  
+
+
+
+
+Define Polymorphism
+
+Your answer:
+
+Paste a commented code snippet example below: 
+
+
+Give a code example of an Object being declared, then instantiated and then initialized.
+
+
+
+What is the Diamond Problem as it relates to:
+
+A. C#
+
+B. Java
+
+
+What is the difference between polymorphism and inheritance?
+
+Your answer:
+
+
+
+What is Association?
+
+Your answer:
+
+
+What is Aggregation?
+
+Your answer:
+
+
+What is Composition?
+
+Your answer:
+
+
+What are constructors and what are destructors?
+
+Your answer:
+
+What are constructors and what are destructors?
+
+Your answer:
+
+
+
+What are access modifiers?
+
+
+
+.Net Questions
+
+ What are the different types of classes in C#?
+
+
+
+Explain Code compilation in C#
+
+
+
+What are the differences between a Class and a Struct?
+
+
+
+What is the difference between Virtual method and Abstract method?
+
+
+
+How is Exception Handling implemented in C#?
+
+
+
+What are C# I/O Classes? What are the commonly used I/O Classes?
+
+
+
+What are Boxing and Unboxing?
+
+
+
+What is a String? What are the properties of a String Class?
+
+
+
+Give an example of using a sealed class in C#?
+
+
+
+ What is the difference between “finalize” and “finally” methods in C#?
+
+
+Why and when should you use each of them?
+
+
+Describe compilation in C#?
+
+
+What is the difference between an abstract class and an interface?
+
+What is a delegate in .NET?
+
+
+Java Questions
+
+Explain public static void main(String args[]).
+
+
+
+Explain public static void main(String args[]).
+
+
+
+Why java is not 100% Object-oriented?
+
+
+What are wrapper classes?
+
+
+What is singleton class and how can we make a class singleton?
+
+
+What is the difference between equals() and == ?
+
+
+What are the differences between Heap and Stack Memory?
+
+
+What is runtime polymorphism or dynamic method dispatch?  Create an example with comments. 
+
+
+What is method overloading and method overriding?
+
+
+What is multiple inheritance? Is it supported by Java? (dejavu?)
+
+
+What is a servlet?
+
+
+List five features of Java?
+
+
+List some Java keywords(unlike C,C#, C++ keywords)?
+
+
+When would you use the parseInt() method ?
+
+
+Which package is used for pattern matching with regular expressions?
+
+
+Describe the super keyword?
+
+
+17. Does Java support multiple inheritance. Why or Why not?
+
+
+Name AND DEFINE each of the methods of Object Class

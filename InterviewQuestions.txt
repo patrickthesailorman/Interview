@@ -369,6 +369,7 @@ Give a code example of an Object being declared, then instantiated and then init
 What is the Diamond Problem as it relates to:
 
 A. C#
+https://blogs.msdn.microsoft.com/csharpfaq/2004/03/07/why-doesnt-c-support-multiple-inheritance/
 
 B. Java
 

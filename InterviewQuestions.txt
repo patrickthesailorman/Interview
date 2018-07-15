@@ -398,7 +398,9 @@ For example, departments and employees, a department has many employees but a si
 What is Composition?
 
 Your answer:
+Composition is special type of Aggregation. It is a strong type of Aggregation. In this type of Aggregation the child object does not have their own life cycle. The child object's life depends on the parent's life cycle. Only the parent object has an independent life cycle. If we delete the parent object then the child object(s) will also be deleted. We can define the Composition as a "Part of" relationship. 
 
+For example, the company and company location, a single company has multiple locations. If we delete the company then all the company locations are automatically deleted. The company location does not have their independent life cycle, it depends on the company object's life (parent object). 
 
 What are constructors and what are destructors?
 

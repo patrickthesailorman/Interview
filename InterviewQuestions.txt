@@ -378,7 +378,7 @@ B. Java
 What is the difference between polymorphism and inheritance?
 
 Your answer:
-
+The main difference is polymorphism is a specific result of inheritance. Polymorphism is where the method to be invoked is determined at runtime based on the type of the object. This is a situation that results when you have one class inheriting from another and overriding a particular method.
 
 
 What is Association?

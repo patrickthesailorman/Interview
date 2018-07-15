@@ -384,6 +384,7 @@ The main difference is polymorphism is a specific result of inheritance. Polymor
 What is Association?
 
 Your answer:
+In Association, the relationship among the objects determine what an object instance can cause another to perform an action on its behalf. We can also say that an association defines the multiplicity among the objects. We can define a one-to-one, one-to-many, many-to-one and many-to-many relationship among objects. Association is a more general term to define a relationship among objects. Association means that an object "uses" another object.
 
 
 What is Aggregation?

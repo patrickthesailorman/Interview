@@ -421,6 +421,9 @@ Your answer:
 
 
 What are access modifiers?
+Access modifiers are keywords used to specify the declared accessibility of a member or a type.
+
+Access modifiers are an integral part of object-oriented programming. They support the concept of encapsulation, which promotes the idea of hiding functionality. Access modifiers allow you to define who does or doesn't have access to certain features.
 
 
 

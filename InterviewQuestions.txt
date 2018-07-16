@@ -430,7 +430,7 @@ Access modifiers are an integral part of object-oriented programming. They suppo
 .Net Questions
 
  What are the different types of classes in C#?
-
+Abstract, Partial, Sealed and Static
 
 
 Explain Code compilation in C#

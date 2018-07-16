@@ -435,6 +435,7 @@ Abstract, Partial, Sealed and Static
 
 Explain Code compilation in C#
 
+The C# compiler compiles the C# source code into the module, which is finally converted into the assembly. ... It loads the assembly and converts it into the native code to execute the assembly. Then this native code is executed by the Operating system and the output will shows according to your requirement.
 
 
 What are the differences between a Class and a Struct?

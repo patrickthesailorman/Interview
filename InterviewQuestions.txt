@@ -402,6 +402,8 @@ Composition is special type of Aggregation. It is a strong type of Aggregation. 
 
 For example, the company and company location, a single company has multiple locations. If we delete the company then all the company locations are automatically deleted. The company location does not have their independent life cycle, it depends on the company object's life (parent object). 
 
+https://www.c-sharpcorner.com/UploadFile/ff2f08/association-aggregation-and-composition/
+
 What are constructors and what are destructors?
 
 Your answer:
